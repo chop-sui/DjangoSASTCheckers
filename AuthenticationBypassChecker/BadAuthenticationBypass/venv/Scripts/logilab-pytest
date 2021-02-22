@@ -1,0 +1,7 @@
+#!c:\djangodemo\django_tutorial\authenticationbypasschecker\badauthenticationbypass\venv\scripts\python.exe
+
+import warnings
+warnings.simplefilter('default', DeprecationWarning)
+
+from logilab.common.pytest import run
+run()
